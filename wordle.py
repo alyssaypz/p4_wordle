@@ -1,4 +1,10 @@
-word = "chair" 
+import random
+
+possible_words = ["reach", "train", "skate", "lover", "quart", "steel"]
+
+
+
+word =  random.choice(possible_words)
 
 # colors for printing
 default = '\033[0m'
